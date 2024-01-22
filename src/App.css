@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap");
+
 .nav {
   background-color: azure;
   padding: 20px 0;
@@ -34,6 +37,32 @@ header {
 
 .nav-item a:hover {
   font-size: 18px;
+}
+
+.home {
+  height: 90vh;
+}
+
+.home .bio {
+  margin-top: 15rem;
+  font-family: "Raleway", sans-serif;
+}
+
+.bio span {
+  font-size: 7rem;
+  display: block;
+  color: #000;
+}
+
+.bio h2 {
+  margin-top: 1rem;
+  color: black;
+  font-size: 15px;
+  font-family: "Grape Nuts", cursive;
+}
+
+.bio-image img {
+  width: 70%;
 }
 
 /* Tablets and under */
