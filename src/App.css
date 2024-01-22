@@ -1,0 +1,75 @@
+.nav {
+  background-color: azure;
+  padding: 20px 0;
+  height: 10vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: 900;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  list-style-type: none;
+  margin: 0 2rem;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-item a:hover {
+  font-size: 18px;
+}
+
+/* Tablets and under */
+@media (max-width: 768px) {
+  .nav-item {
+    margin: 0 1rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 500px) {
+  .nav .container {
+    padding: 0 20px;
+  }
+
+  .nav {
+    padding: 30px 0;
+    height: 15vh;
+  }
+
+  .nav-item {
+    margin: 0 0.5rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 400px) {
+  .logo {
+    font-size: 16px;
+  }
+
+  .nav-item {
+    margin: 0 0.2rem;
+  }
+
+  .nav-item a {
+    font-size: 12px;
+  }
+}
