@@ -44,7 +44,7 @@ header {
 }
 
 .home .bio {
-  margin-top: 15rem;
+  margin-top: 7rem;
   font-family: "Raleway", sans-serif;
 }
 
@@ -58,11 +58,63 @@ header {
   margin-top: 1rem;
   color: black;
   font-size: 15px;
-  font-family: "Grape Nuts", cursive;
+  font-family: "Raleway";
+}
+
+.bio button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  width: 10rem;
+  height: 3rem;
+  margin-top: 1rem;
+  font-family: "Raleway";
+}
+
+.bio button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.bio button:hover {
+  cursor: pointer;
+  border: 2px solid #000;
+  background: transparent;
+  color: #000;
+}
+
+.bio-image .image-box {
+  position: relative;
+}
+
+.bio-image .square {
+  border: 2px solid #000;
+  width: 60%;
+  height: 22.8rem;
+  position: relative;
+  z-index: 1;
+  background-color: #000;
 }
 
 .bio-image img {
-  width: 70%;
+  width: 60%;
+  position: absolute;
+  z-index: 3;
+  bottom: -10%;
+  left: 5%;
+  top: 8%;
+}
+
+.bio-image .square2 {
+  border: 2px solid #000;
+  width: 60%;
+  height: 22.8rem;
+  position: absolute;
+  z-index: 2;
+  background-color: #000;
+  top: 15%;
+  left: 10%;
 }
 
 /* Tablets and under */

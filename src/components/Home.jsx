@@ -15,10 +15,18 @@ const Home = () => {
                 messaging, and collaborating cross-functionally in Fintech and
                 Web3 organizations
               </h2>
+
+              <a href="/about">
+                <button>About Me</button>
+              </a>
             </div>
           </div>
           <div className="bio-image">
-            <img src="Segun1.jpg" alt="Segun's Picture" />
+            <div className="image-box">
+              <div className="square"></div>
+              <img src="Segun1.jpg" alt="Segun's Picture" />
+              <div className="square2"></div>
+            </div>
           </div>
         </div>
       </div>
