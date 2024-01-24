@@ -1,10 +1,10 @@
 import { Routes, Route } from "react-router-dom";
-import { useState, lazy, Suspense } from "react";
+import { lazy, Suspense } from "react";
 
 import "./App.css";
-import NavBar from "./components/NavBar";
 import About from "./components/About";
 import ScrollAwareNavbar from "./components/ScrollAwareNavbar";
+import Services from "./components/Services";
 
 const Home = lazy(() => import("./components/Home"));
 const Portfolio = lazy(() => import("./components/Portfolio"));
@@ -14,7 +14,6 @@ const App = () => {
   return (
     <>
       <ScrollAwareNavbar />
-      {/* <NavBar /> */}
       <Suspense fallback="loading....">
         <Routes>
           <Route
@@ -23,6 +22,7 @@ const App = () => {
               <>
                 <Home />
                 <About />
+                <Services />
               </>
             }
           />
