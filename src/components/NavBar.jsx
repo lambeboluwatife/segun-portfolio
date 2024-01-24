@@ -1,6 +1,9 @@
-const NavBar = () => {
+const NavBar = ({ backgroundColor }) => {
+  const navbarStyle = {
+    backgroundColor: backgroundColor,
+  };
   return (
-    <div className="nav">
+    <div className="nav" style={navbarStyle}>
       <div className="container">
         <header>
           <h3 className="logo">
