@@ -8,8 +8,15 @@
 
 body {
   font-family: "Lato", sans-serif;
-  background-color: #fff;
-  color: #000;
+  background-color: #222222;
+  background-image: linear-gradient(
+    #454747,
+    #383836,
+    #2f2d2c,
+    #2b2928,
+    #222222
+  );
+  color: #fff;
 }
 
 .container {
@@ -25,4 +32,8 @@ body {
   justify-content: center;
   align-items: center;
   height: 100%;
+}
+
+.grid-3 {
+  grid-template-columns: repeat(3, 1fr);
 }
