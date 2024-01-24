@@ -1,3 +1,5 @@
+import Resume from "/Segun Sobodu PM CV.pdf";
+
 const About = () => {
   return (
     <div className="about">
@@ -21,7 +23,7 @@ const About = () => {
               field of product management.
             </h6>
             <div className="download-cv">
-              <a href="#" rel="noreferrer" target="_blank">
+              <a href={Resume} rel="noreferrer" target="_blank">
                 Download CV
               </a>
             </div>
