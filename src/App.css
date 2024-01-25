@@ -76,13 +76,32 @@ header {
   line-height: 1.5;
 }
 
+.home .socials {
+  margin-top: 1rem;
+}
+
+.home .socials a {
+  text-decoration: none;
+  color: var(--primary-color);
+  margin: 0 1rem;
+}
+
+.home .socials a:hover {
+  color: #fff;
+}
+
+.home .socials a .icons {
+  font-size: 2rem;
+}
+
 .about {
   color: #000;
   padding: 2rem 15rem;
 }
 
 .about h1,
-.services h1 {
+.services h1,
+.skills h1 {
   color: var(--primary-color);
   font-size: 1.5rem;
   font-family: "Raleway", sans-serif;
@@ -92,6 +111,7 @@ header {
 
 .about .grid {
   padding: 1rem;
+  margin-top: 2rem;
   overflow: hidden;
 }
 
@@ -150,22 +170,26 @@ header {
   right: 13%;
 }
 
-.services {
+.services,
+.skills {
   padding: 2rem 15rem;
   text-align: center;
 }
 
-.services .grid {
+.services .grid,
+.skills .grid {
   margin-top: 2rem;
 }
 
-.services .card {
+.services .card,
+.skill .card {
   border: 2px solid var(--neutral-4, #4d4d4d);
   background: #1c1c1c;
   padding: 20px 25px;
 }
 
-.services .card h5 {
+.services .card h5,
+.skill .card h5 {
   padding: 0.5rem 0;
   font-family: "Raleway", sans-serif;
 }
@@ -175,9 +199,43 @@ header {
   font-family: "Nunito", sans-serif;
 }
 
-.services .icons {
+.services .icons,
+.skill .icons {
   font-size: 1.5rem;
   color: var(--primary-color);
+}
+
+.skills-info {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.skills-info h3 {
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 1rem;
+}
+
+.skills-info h6 {
+  font-family: "Nunito", sans-serif;
+  line-height: 2;
+}
+
+.skill h3 {
+  color: var(--primary-color);
+  font-family: "Raleway", sans-serif;
+}
+
+.hard-skills,
+.soft-skills {
+  margin-bottom: 1rem;
+}
+
+.skill .card {
+  padding: 10px 5px;
+}
+
+.skill .soft-skills .card {
+  padding: 23.5px 5px;
 }
 
 /* Tablets and under */

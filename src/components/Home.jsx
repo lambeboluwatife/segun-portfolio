@@ -1,3 +1,5 @@
+import { FaFacebook, FaLinkedin, FaTwitter } from "react-icons/fa";
+
 const Home = () => {
   return (
     <div className="home">
@@ -11,6 +13,18 @@ const Home = () => {
           successful product launches, creating compelling messaging, and <br />
           collaborating cross-functionally in Fintech and Web3 organizations
         </h2>
+        <div className="socials">
+          <a href="#">
+            <FaFacebook className="icons" />
+          </a>
+          <a href="#">
+            {" "}
+            <FaTwitter className="icons" />
+          </a>
+          <a href="#">
+            <FaLinkedin className="icons" />
+          </a>
+        </div>
       </div>
     </div>
   );
