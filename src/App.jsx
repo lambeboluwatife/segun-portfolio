@@ -5,6 +5,7 @@ import "./App.css";
 import About from "./components/About";
 import ScrollAwareNavbar from "./components/ScrollAwareNavbar";
 import Services from "./components/Services";
+import Skills from "./components/Skills";
 
 const Home = lazy(() => import("./components/Home"));
 const Portfolio = lazy(() => import("./components/Portfolio"));
@@ -23,6 +24,7 @@ const App = () => {
                 <Home />
                 <About />
                 <Services />
+                <Skills />
               </>
             }
           />
