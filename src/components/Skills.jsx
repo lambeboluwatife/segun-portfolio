@@ -11,7 +11,10 @@ import {
 const Skills = () => {
   return (
     <div className="skills">
-      <h1>My Skills</h1>
+      <div className="section-header">
+        {/* <h1 className="h1">My Skills</h1> */}
+        <h1>My Skills</h1>
+      </div>
       <div className="skills-info">
         <h3>All Skills I Have In My Field Of Work.</h3>
         <h6>
