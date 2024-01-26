@@ -101,7 +101,8 @@ header {
 
 .about h1,
 .services h1,
-.skills h1 {
+.skills h1,
+.experience h1 {
   color: var(--primary-color);
   font-size: 1.5rem;
   font-family: "Raleway", sans-serif;
@@ -171,7 +172,8 @@ header {
 }
 
 .services,
-.skills {
+.skills,
+.experience {
   padding: 2rem 15rem;
   text-align: center;
 }
@@ -215,7 +217,8 @@ header {
   margin-bottom: 1rem;
 }
 
-.skills-info h6 {
+.skills-info h6,
+.experience h6 {
   font-family: "Nunito", sans-serif;
   line-height: 2;
 }
@@ -236,6 +239,56 @@ header {
 
 .skill .soft-skills .card {
   padding: 23.5px 5px;
+}
+
+.experience h1 {
+  margin-bottom: 2rem;
+}
+
+.experience .works {
+  margin-top: 2rem;
+  color: rgb(212, 210, 210);
+}
+
+.experience .work {
+  border-bottom: 1px solid rgb(118, 117, 117);
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.experience .work .work-icon {
+  color: red;
+  font-size: 4rem;
+  float: left;
+}
+
+.experience .work .work-icon2 {
+  color: rgb(212, 210, 210);
+  font-size: 4rem;
+  float: left;
+}
+
+.experience .work .work-info {
+  padding-left: 2rem;
+  line-height: 1.2;
+  text-align: left;
+  margin-left: 4rem;
+}
+
+.experience .work .work-info2 {
+  color: red;
+}
+
+.experience .work h4 {
+  font-family: "Teko", sans-serif;
+}
+
+.experience .work h6 {
+  font-family: "Nunito", sans-serif;
+}
+
+.experience .work h2 {
+  font-family: "Teko", sans-serif;
 }
 
 footer {
