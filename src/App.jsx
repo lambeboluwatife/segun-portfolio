@@ -8,6 +8,7 @@ import Services from "./components/Services";
 import Skills from "./components/Skills";
 import Footer from "./components/Footer";
 import Experience from "./components/Experience";
+import Loader from "./components/Loader";
 
 const Home = lazy(() => import("./components/Home"));
 const Portfolio = lazy(() => import("./components/Portfolio"));
@@ -16,8 +17,9 @@ const Contact = lazy(() => import("./components/Contact"));
 const App = () => {
   return (
     <>
-      <ScrollAwareNavbar />
-      <Suspense fallback="loading....">
+      <Suspense fallback={<Loader />}>
+        <ScrollAwareNavbar />
+
         <Routes>
           <Route
             path="/"
@@ -34,8 +36,8 @@ const App = () => {
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+        <Footer />
       </Suspense>
-      <Footer />
     </>
   );
 };
