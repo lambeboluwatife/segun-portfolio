@@ -231,11 +231,6 @@ header {
   margin-top: 2rem;
 }
 
-.skills-info h3 {
-  font-family: "Raleway", sans-serif;
-  margin-bottom: 1rem;
-}
-
 .skills-info h6,
 .experience h6 {
   font-family: "Nunito", sans-serif;
@@ -465,7 +460,8 @@ footer a:hover {
 /* Mobile */
 @media (max-width: 500px) {
   .nav {
-    padding: 10px 0;
+    padding: 40px 0;
+    /* height: 10vh; */
   }
 
   .grid,
