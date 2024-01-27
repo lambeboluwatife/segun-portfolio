@@ -13,7 +13,6 @@ const Skills = () => {
     <div className="skills">
       <h1>My Skills</h1>
       <div className="skills-info">
-        <h3>All Skills I Have In My Field Of Work.</h3>
         <h6>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
           quia nobis minima necessitatibus magnam porro reprehenderit molestiae
