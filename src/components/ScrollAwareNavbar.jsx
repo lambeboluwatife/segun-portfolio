@@ -10,9 +10,8 @@ const ScrollAwareNavbar = () => {
     const position = window.scrollY;
     setScrollPosition(position);
 
-    // Change the background color at a specific scroll position (e.g., 100px)
     if (position > 600) {
-      setNavbarColor("#000"); // Change to your desired background color
+      setNavbarColor("#000");
     } else {
       setNavbarColor("transparent");
     }

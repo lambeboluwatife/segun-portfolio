@@ -1,4 +1,4 @@
-import Resume from "/Segun Sobodu PM CV.pdf";
+import Resume from "../assets/Segun Sobodu PM CV.pdf";
 
 const About = () => {
   return (
