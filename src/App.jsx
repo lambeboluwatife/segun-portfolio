@@ -9,6 +9,7 @@ import Skills from "./components/Skills";
 import Footer from "./components/Footer";
 import Experience from "./components/Experience";
 import Loader from "./components/Loader";
+import Hero from "./components/Hero";
 
 const Home = lazy(() => import("./components/Home"));
 const Portfolio = lazy(() => import("./components/Portfolio"));
@@ -19,7 +20,6 @@ const App = () => {
     <>
       <Suspense fallback={<Loader />}>
         <ScrollAwareNavbar />
-
         <Routes>
           <Route
             path="/"
@@ -33,7 +33,15 @@ const App = () => {
               </>
             }
           />
-          <Route path="/portfolio" element={<Portfolio />} />
+          <Route
+            path="/portfolio"
+            element={
+              <>
+                <Hero />
+                <Portfolio />
+              </>
+            }
+          />
           <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />

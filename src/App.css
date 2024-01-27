@@ -46,10 +46,12 @@ header {
 
 .nav-item a:hover {
   font-size: 18px;
+  color: var(--primary-color);
 }
 
-.home {
-  background-image: url("/background.png");
+.home,
+.hero {
+  background-image: url("/background.webp");
   color: #fff;
   text-align: center;
   background-size: cover;
@@ -58,7 +60,12 @@ header {
   z-index: 3;
 }
 
-.home h1 {
+.hero {
+  background-image: url("/background3.webp");
+}
+
+.home h1,
+.hero h1 {
   font-family: "Raleway", sans-serif;
   font-size: 4rem;
   margin-top: 13rem;
@@ -68,11 +75,21 @@ header {
   color: var(--primary-color);
 }
 
-.home h2 {
+.home h2,
+.hero h2 {
   margin-top: 1rem;
   font-family: "Nunito", sans-serif;
   font-size: 15px;
   line-height: 1.5;
+}
+
+.hero h1 {
+  margin-top: 15rem;
+  color: var(--primary-color);
+}
+
+.hero h2 {
+  margin-bottom: 18rem;
 }
 
 .home .socials {
@@ -97,6 +114,14 @@ header {
 .about {
   color: #000;
   padding: 2rem 15rem;
+}
+
+.services,
+.skills,
+.experience,
+.portfolio {
+  padding: 2rem 15rem;
+  text-align: center;
 }
 
 .about h1,
@@ -171,20 +196,14 @@ header {
   right: 13%;
 }
 
-.services,
-.skills,
-.experience {
-  padding: 2rem 15rem;
-  text-align: center;
-}
-
 .services .grid,
 .skills .grid {
   margin-top: 2rem;
 }
 
 .services .card,
-.skill .card {
+.skill .card,
+.portfolio .card {
   border: 2px solid var(--neutral-4, #4d4d4d);
   background: #1c1c1c;
   padding: 20px 25px;
@@ -291,6 +310,54 @@ header {
   font-family: "Raleway", sans-serif;
 }
 
+.portfolio .cards {
+  margin: 1rem 0;
+}
+
+.portfolio .card {
+  width: 70%;
+  text-align: left;
+  border-right: var(--primary-color) solid 5px;
+  margin-left: 5rem;
+}
+
+.portfolio .card:hover {
+  opacity: 0.7;
+}
+
+.portfolio img {
+  width: 20%;
+  height: 20%;
+}
+
+.portfolio .card h1 {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.portfolio .card h2 {
+  font-size: 0.8rem;
+  line-height: 1.7;
+}
+
+.portfolio .links {
+  margin-top: 1rem;
+}
+
+.portfolio a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.portfolio a:hover {
+  color: #fff;
+}
+
+.portfolio .icon {
+  margin: 0 1rem 0 0;
+  font-size: 20px;
+}
+
 footer {
   background-color: #000;
   color: #fff;
@@ -362,11 +429,13 @@ footer a:hover {
     margin: 0 1rem;
   }
 
-  .home h1 {
+  .home h1,
+  .hero h1 {
     font-size: 3rem;
   }
 
-  .home h2 {
+  .home h2,
+  .hero h2 {
     font-size: 13px;
   }
 
@@ -377,8 +446,19 @@ footer a:hover {
   .about,
   .services,
   .skills,
-  .experience {
+  .experience,
+  .portfolio {
     padding: 40px;
+  }
+
+  .portfolio .card {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .portfolio img {
+    width: 10%;
+    height: 10%;
   }
 }
 
@@ -408,11 +488,13 @@ footer a:hover {
     margin: 0 0.5rem;
   }
 
-  .home h1 {
+  .home h1,
+  .hero h1 {
     font-size: 2.5rem;
   }
 
-  .home h2 {
+  .home h2,
+  .hero h2 {
     font-size: 12px;
   }
 
@@ -434,6 +516,15 @@ footer a:hover {
 
   .experience .work h2 {
     font-size: 1.3rem;
+  }
+
+  .portfolio {
+    padding: 20px;
+  }
+
+  .portfolio img {
+    width: 20%;
+    height: 20%;
   }
 
   footer {
@@ -482,15 +573,34 @@ footer a:hover {
   .experience .work h2 {
     font-size: 1.2rem;
   }
+
+  .portfolio {
+    padding: 10px;
+  }
+
+  .portfolio .card h1 {
+    font-size: 1.3rem;
+  }
+
+  .portfolio .card h2 {
+    font-size: 0.6rem;
+  }
+
+  footer h4 {
+    font-size: small;
+    text-align: center;
+  }
 }
 
 /* Mobile */
 @media (max-width: 320px) {
-  .home h1 {
+  .home h1,
+  .hero h1 {
     font-size: 2rem;
   }
 
-  .home h2 {
+  .home h2,
+  .hero h2 {
     font-size: 10px;
   }
 
@@ -503,10 +613,31 @@ footer a:hover {
   }
 
   .experience .work h4 {
-    font-size: 0.5rem;
+    font-size: 8px;
   }
 
   .experience .work h2 {
+    font-size: 12px;
+  }
+
+  .experience .work h6 {
+    font-size: 8px;
+  }
+
+  .portfolio {
+    padding: 5px;
+  }
+
+  .portfolio .card h1 {
     font-size: 1rem;
+    margin: 0.5rem 0;
+  }
+
+  .portfolio .card h2 {
+    font-size: 0.5rem;
+  }
+
+  .portfolio .icon {
+    font-size: 15px;
   }
 }
