@@ -15,8 +15,8 @@ const Experience = () => {
         <div className="work ">
           <FaLaptop className="work-icon" />
           <div className="work-info">
-            <h4>REACHOUT</h4>
-            <h2>PRODUCT MANAGER</h2>
+            <h4>Reachout</h4>
+            <h2>Product Manager</h2>
             <h6>September 2023 – Till Date</h6>
             <h6>Lagos, NIgeria</h6>
           </div>
@@ -24,8 +24,8 @@ const Experience = () => {
         <div className="work ">
           <FaLaptop className="work-icon2" />
           <div className="work-info">
-            <h4>OPERA SOFTWARE</h4>
-            <h2>PRODUCT TESTER & QUALITY ASSURANCE</h2>
+            <h4>Opera Software</h4>
+            <h2>Product Tester & Quality Assurance</h2>
             <h6>January 2019 – Till Date</h6>
             <h6>Lagos, NIgeria</h6>
           </div>
@@ -33,8 +33,8 @@ const Experience = () => {
         <div className="work ">
           <FaLaptop className="work-icon" />
           <div className="work-info">
-            <h4>HIREWAVE</h4>
-            <h2>LEAD PRODUCT MANAGER</h2>
+            <h4>Hirewave</h4>
+            <h2>Lead Product Manager</h2>
             <h6>June 2023 – Till Date</h6>
             <h6>Lagos, NIgeria</h6>
           </div>
@@ -42,8 +42,8 @@ const Experience = () => {
         <div className="work ">
           <FaLaptop className="work-icon2" />
           <div className="work-info">
-            <h4>GIVEAWAY APP</h4>
-            <h2>PRODUCT MARKETING MANAGER</h2>
+            <h4>Giveaway App</h4>
+            <h2>Product Marketing Manager</h2>
             <h6>June 2022 – September 2022</h6>
             <h6>Lagos, NIgeria</h6>
           </div>
