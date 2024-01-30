@@ -21,6 +21,16 @@ const About = () => {
             the groundwork for my journey into the dynamic field of product
             management.
           </h6>
+
+          <div className="about-contact">
+            <a href="mailto:Sobodus@gmail.com">
+              <h6>Sobodus@gmail.com</h6>
+            </a>
+            <a href="+2348087793137">
+              <h6>+234 808 779 3137</h6>
+            </a>
+          </div>
+
           <div className="download-cv">
             <a href={Resume} rel="noreferrer" target="_blank">
               Download CV
