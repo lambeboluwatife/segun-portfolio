@@ -1,4 +1,10 @@
-import { FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import {
+  FaEnvelope,
+  FaInstagram,
+  FaLinkedinIn,
+  FaPhoneSquare,
+  FaTwitter,
+} from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -33,6 +39,18 @@ const Contact = () => {
                   <FaInstagram className="icon" />
                 </a>
                 <h6>Instagram</h6>
+              </div>
+              <div className="contact-social">
+                <a href="mailto:Sobodus@gmail.com">
+                  <FaEnvelope className="icon" />
+                </a>
+                <h6>Mail</h6>
+              </div>
+              <div className="contact-social">
+                <a href="+2348087793137">
+                  <FaPhoneSquare className="icon" />
+                </a>
+                <h6>Telephone</h6>
               </div>
             </div>
 

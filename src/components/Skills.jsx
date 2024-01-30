@@ -27,7 +27,7 @@ const Skills = () => {
       <div className="grid">
         <div className="skill">
           <div className="hard-skills">
-            <h3>Hard Skills</h3>
+            <h3>Tools</h3>
             <div className="grid grid-3">
               <div className="card">
                 <FaSlack className="icons" />

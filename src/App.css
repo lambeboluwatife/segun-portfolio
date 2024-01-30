@@ -241,8 +241,7 @@ header {
   margin-top: 2rem;
 }
 
-.skills-info h6,
-.experience h6 {
+.skills-info h6 {
   font-family: "Nunito", sans-serif;
   line-height: 2;
 }
@@ -281,14 +280,7 @@ header {
 }
 
 .experience .work .work-icon {
-  color: red;
-  font-size: 4rem;
-  float: left;
-}
-
-.experience .work .work-icon2 {
-  color: rgb(212, 210, 210);
-  font-size: 4rem;
+  width: 10%;
   float: left;
 }
 
@@ -297,10 +289,6 @@ header {
   line-height: 1.2;
   text-align: left;
   margin-left: 4rem;
-}
-
-.experience .work .work-info2 {
-  color: red;
 }
 
 .experience .work h4 {
@@ -421,7 +409,7 @@ header {
 }
 
 .contact-social h6 {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }
 
 .contact-form h3 {
@@ -668,6 +656,11 @@ footer a:hover {
     font-size: 1.3rem;
   }
 
+  .experience .work .work-icon {
+    width: 20%;
+    height: 20%;
+  }
+
   .portfolio {
     padding: 20px;
   }
@@ -733,6 +726,10 @@ footer a:hover {
     font-size: 1.2rem;
   }
 
+  .experience .work .work-info {
+    margin-left: 3rem;
+  }
+
   .portfolio {
     padding: 10px;
   }
@@ -781,6 +778,10 @@ footer a:hover {
 
   .experience .work h6 {
     font-size: 8px;
+  }
+
+  .experience .work .work-info {
+    margin-left: 2rem;
   }
 
   .portfolio {
