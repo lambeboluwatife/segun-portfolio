@@ -59,3 +59,34 @@ export const portfolios = [
     applestore: "",
   },
 ];
+
+export const experiences = [
+  {
+    organisation: "Reachout",
+    position: "Product Manager",
+    duration: "September 2023 – Till Date",
+    location: "Lagos, Nigeria",
+    logo: reachout,
+  },
+  {
+    organisation: "Opera Software",
+    position: "Product Tester & Quality Assurance",
+    duration: "January 2019 – Till Date",
+    location: "Lagos, Nigeria",
+    logo: opera,
+  },
+  {
+    organisation: "Hirewave",
+    position: "Lead Product Manager",
+    duration: "June 2023 – Till Date",
+    location: "Lagos, Nigeria",
+    logo: hirewave,
+  },
+  {
+    organisation: "Giveaway App",
+    position: "Product Marketing Manager",
+    duration: "June 2022 – September 2022",
+    location: "Lagos, Nigeria",
+    logo: giveaway,
+  },
+];
