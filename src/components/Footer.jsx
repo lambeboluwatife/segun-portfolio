@@ -1,4 +1,12 @@
+import { useLocation } from "react-router";
+
 const Footer = () => {
+  const location = useLocation();
+  const hideHeaderForPaths = ["/contact"];
+
+  if (hideHeaderForPaths.includes(location.pathname)) {
+    return <></>;
+  }
   return (
     <footer>
       <h1>Segun Sobodu</h1>

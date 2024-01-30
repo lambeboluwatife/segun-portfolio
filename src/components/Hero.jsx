@@ -1,13 +1,9 @@
-const Hero = () => {
+const Hero = ({ heroContent }) => {
   return (
     <div className="hero">
       <div className="container">
-        <h1>Portfolio</h1>
-        <h2>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-          Reprehenderit, eos fugiat a non commodi odio ex nihil dolorum ad
-          voluptatibus?
-        </h2>
+        <h1>{heroContent.h1}</h1>
+        <h2>{heroContent.h2}</h2>
       </div>
     </div>
   );
