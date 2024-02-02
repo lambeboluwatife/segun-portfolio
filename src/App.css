@@ -236,6 +236,10 @@ header {
   color: var(--primary-color);
 }
 
+.service-title {
+  font-size: 1.5rem;
+}
+
 .skills-info {
   text-align: center;
   margin-top: 2rem;
