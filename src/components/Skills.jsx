@@ -14,14 +14,18 @@ const Skills = () => {
       <h1>My Skills</h1>
       <div className="skills-info">
         <h6>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
-          quia nobis minima necessitatibus magnam porro reprehenderit molestiae
-          atque obcaecati aperiam, debitis praesentium deleniti ea. Tempora
-          saepe sed reiciendis mollitia ullam? Lorem ipsum dolor sit amet,
-          consectetur adipisicing elit. Tempore mollitia nobis inventore
-          distinctio vel iste aspernatur magnam totam corporis esse. Facere
-          quaerat atque dolores nostrum perferendis debitis reiciendis ipsa
-          corrupti.
+          My career as a Product Manager has equipped me with a well-rounded
+          skill set essential for success in the role. I excel in
+          cross-functional leadership, demonstrated through effective
+          collaboration with diverse teams. Problem-solving is a key strength,
+          enabling me to analyze challenges and devise strategic solutions. My
+          expertise extends to Go-to-Market strategy development, ensuring
+          successful product launches. Effective communication is a priority,
+          facilitating clear articulation of product vision and fostering
+          collaboration. I am committed to a user-centric approach, backed by
+          thorough market research, and possess strong decision-making
+          abilities. These skills collectively position me as a valuable
+          contributor to product success.
         </h6>
       </div>
       <div className="grid">

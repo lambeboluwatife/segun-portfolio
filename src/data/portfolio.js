@@ -6,7 +6,7 @@ import mipad from "/mipad.jpg";
 
 export const portfolios = [
   {
-    product: "ReachOut",
+    product: "ReachOut Inc",
     description:
       "Communicate with friends and family via text, images, voice notes, audio and video calls, completely data-free. Download now to enjoy data-free messaging and calls.",
     image: reachout,
@@ -62,7 +62,7 @@ export const portfolios = [
 
 export const experiences = [
   {
-    organisation: "Reachout",
+    organisation: "ReachOut Inc",
     position: "Product Manager",
     duration: "September 2023 – Till Date",
     location: "Lagos, Nigeria",
