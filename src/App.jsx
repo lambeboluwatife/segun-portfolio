@@ -18,7 +18,6 @@ const Contact = lazy(() => import("./components/Contact"));
 const App = () => {
   const portfolioHero = {
     h1: "Portfolio",
-    h2: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, eos fugiat a non commodi odio ex nihil dolorum ad voluptatibus?",
   };
 
   return (
